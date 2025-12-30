@@ -489,11 +489,11 @@ $(window).on('load', function () {
   function renderDWPromosHero() {
     return `
       <section class="dw-promos-hero">
-      <img class="percent-promo" src="https://symmagency.github.io/dwgames/assets/banners/percent-promo.png" alt="Porcentagem DW Promo"/>
+      <!--<img class="percent-promo" src="https://symmagency.github.io/dwgames/assets/banners/percent-promo.png" alt="Porcentagem DW Promo"/>-->
           <div class="append-promo-content">
         <div>
           <h1>
-            <img src="https://symmagency.github.io/dwgames/assets/banners/dw-promo.svg" alt="Promos da DW">
+            <img src="https://symmagency.github.io/nomad/assets/nomad-promos.svg" alt="Promos da DW">
           </h1>
           <p>
             Bem-vindo à <span>central de ofertas da DW GAMES</span> — o lugar certo para gamers que querem jogos originais para PS4/PS5 com preço baixo, entrega digital rápida e segurança garantida.
