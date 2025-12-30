@@ -1350,18 +1350,18 @@ h2.faq-title {
 }
 
 .coupon-promo span span {
-    color: #6afa02;
+    color: #ef0302;
     font-weight: bold;
 }
 
 .coupon-promo {
     padding: 12px;
-    border: 1px dashed #6afa02;
+    border: 1px dashed #ef0302;
     border-radius: 6px;
 }
 
 .main_promotion_content-1 {
-    background: url(https://symmagency.github.io/dwgames/assets/banners/bg-page-promo.png) -390px -350px no-repeat;
+    background: url(https://symmagency.github.io/nomad/assets/fundo-bg.png) -390px -350px no-repeat;
 }
 
 .category-content .holder-results {
