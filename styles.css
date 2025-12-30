@@ -41,7 +41,7 @@ body.dark-mode.category {
 }
 
 .image-ratio {
-	padding-bottom: 125%;
+	padding-bottom: 57%%;
 }
 
 .header-content .search-btn {
@@ -185,7 +185,7 @@ body.dark-mode:not(.category) input:not([type='checkbox'], [type='radio']) {
 	top: 12px;
 	padding: 2px 8px;
 	font-size: 12px;
-	background: #69fa00;
+	background: #ef0302;
 	border: 0;
 	height: 24px;
 	display: flex;
@@ -242,7 +242,7 @@ body.dark-mode:not(.category) input:not([type='checkbox'], [type='radio']) {
 
 .cta-yt-video {
     padding: 16px 32px;
-    background: #69FA00;
+    background: #ef0302;
     border-radius: 6px;
     color: #000;
 }
@@ -934,7 +934,7 @@ body:not(.product) .holder-flags span.flag {
 
 .box-product .buy-button-text-icon {
 	height: 42px;
-	background: #69fa00 !important;
+	background: #ef0302 !important;
 	border-radius: 6px !important;
     width: 100% !important;
     color: #000 !important;
@@ -1041,7 +1041,7 @@ body.dark-mode .rkt-header-shopping-page-redirect:after {
 }
 
 .main-product-buy-button-holder .btn {
-	background: #69FA00;
+	background: #ef0302;
 	color: #150e19;
 	border: 0;
 	height: 60px;
@@ -1054,7 +1054,7 @@ body.dark-mode .rkt-header-shopping-page-redirect:after {
     margin: 0 0 0 20px;
     align-items: center;
     display: flex;
-    background: #69FA00;
+    background: #ef0302;
     border-color: #69FA00;
     color: #000;
 }
@@ -1323,7 +1323,7 @@ h2.faq-title {
 }
 
 .promotion .products-list {
-    background: #69FA00;
+    background: #ef0302;
     padding: 60px;
     border-radius: 10px;
     margin-bottom: 60px;
@@ -1471,7 +1471,7 @@ section.dw-promos-hero {
 /* Ajustes na barra de newsletter */
 
 #form-newsletter .btn {
-    background: #69FA00;
+    background: #ef0302;
     border: 0;
     height: 44px;
     color: #000;
