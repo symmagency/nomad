@@ -140,7 +140,7 @@ body.dark-mode.category {
 	display: flex;
 	align-items: center;
 	padding: 10px 20px;
-	border: 1px solid #69fa00;
+	border: 1px solid #ef0302;
 	border-radius: 6px;
 }
 
@@ -1056,7 +1056,7 @@ body.dark-mode .rkt-header-shopping-page-redirect:after {
     align-items: center;
     display: flex;
     background: #ef0302;
-    border-color: #69FA00;
+    border-color: #ef0302;
     color: #000;
 }
 
@@ -1444,8 +1444,8 @@ section.dw-promos-hero {
 .rating-total > a > span {
     padding: 4px 12px;
     border-radius: 999px;
-    border: 1px solid #69FA00;
-    color: #69FA00;
+    border: 1px solid #ef0302;
+    color: #ef0302;
 }
 
 .rating-total > a > strong {
@@ -1458,7 +1458,7 @@ section.dw-promos-hero {
 
 .rating-total > a > strong > span {
     font-weight: 600;
-    color: #69FA00;
+    color: #ef0302;
 }
 
 .main-product-content .holder-variant-button {
