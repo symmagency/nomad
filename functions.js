@@ -387,8 +387,8 @@ $(window).on('load', function () {
   // Tente até conseguir
 
   // Definição das variáveis e dados
-  const leftImageUrl = 'https://symmagency.github.io/dwgames/assets/banners/bfsix.png';
-  const rightImageUrl = 'https://symmagency.github.io/dwgames/assets/banners/wwm.png';
+  const leftImageUrl = 'https://symmagency.github.io/nomad/assets/mini-rs-1.png';
+  const rightImageUrl = 'https://symmagency.github.io/nomad/assets/mini-rs-2.png';
   const prices = [
     { value: 'R$ 10', link: '/busca?q=ps&max=10' },
     { value: 'R$ 20', link: '/busca?q=ps&max=20' },
