@@ -447,8 +447,8 @@ $(window).on('load', function () {
   });
   
   // Variáveis configuráveis
-  const ctRumblePrice = 'R$ 143,91';
-  const ctRumbleLink = 'https://www.dwgames.com.br/ghost-of-yotei-ps5-edicao-standard-midia-digital/p';
+  const ctRumblePrice = 'R$ 98,91';
+  const ctRumbleLink = 'https://www.nomadgames.com.br/forza-horizon-5-ps5-versao-digital/p';
   
   // Gera o HTML do card com imagem para desktop e mobile
   function CrashTeamRumbleCard() {
