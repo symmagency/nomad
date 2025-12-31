@@ -427,7 +427,7 @@ $(window).on('load', function () {
 
   // Função que tenta inserir até conseguir
   function tryInsertPriceComparison() {
-    const $collection6 = $('.home .collection-6');
+    const $collection6 = $('.home .collection-5');
     if ($collection6.length > 0 && $('.comparison-container').length === 0) {
       const $comparisonSection = $(PriceComparisonSection());
       $collection6.after($comparisonSection);
