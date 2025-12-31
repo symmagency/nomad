@@ -496,7 +496,7 @@ $(window).on('load', function () {
             <img src="https://symmagency.github.io/nomad/assets/nomad-promos.svg" alt="Promos da DW">
           </h1>
           <p>
-            Bem-vindo à <span>central de ofertas da DW GAMES</span> — o lugar certo para gamers que querem jogos originais para PS4/PS5 com preço baixo, entrega digital rápida e segurança garantida.
+            Bem-vindo à <span>central de ofertas da Nomad Games</span> — o lugar certo para gamers que querem jogos originais para PS4/PS5 com preço baixo, entrega digital rápida e segurança garantida.
           </p>
         </div>
         <div>
