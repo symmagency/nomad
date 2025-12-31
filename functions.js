@@ -389,22 +389,26 @@ $(window).on('load', function () {
   // Definição das variáveis e dados
   const leftImageUrl = 'https://symmagency.github.io/nomad/assets/mini-rs-1.png';
   const rightImageUrl = 'https://symmagency.github.io/nomad/assets/mini-rs-2.png';
+  const leftImageLink = 'https://www.nomadgames.com.br/busca?q=ghost+of+yotei';    // link do banner/esquerda
+  const rightImageLink = 'https://www.nomadgames.com.br/busca?q=crash';  // link do banner/direita
   const prices = [
-    { value: 'R$ 10', link: '/busca?q=ps&max=10' },
-    { value: 'R$ 20', link: '/busca?q=ps&max=20' },
-    { value: 'R$ 30', link: '/busca?q=ps&max=30' },
-    { value: 'R$ 40', link: '/busca?q=ps&max=40' },
-    { value: 'R$ 50', link: '/busca?q=ps&max=50' },
-    { value: 'R$ 100', link: '/busca?q=ps&max=100' },
-    { value: 'R$ 200', link: '/busca?q=ps&max=200' },
-    { value: 'R$ 300', link: '/busca?q=ps&max=300' }
+    { value: 'R$ 10', link: '/busca?q=PS4+PS5&max=10' },
+    { value: 'R$ 20', link: '/busca?q=PS4+PS5&max=20' },
+    { value: 'R$ 30', link: '/busca?q=PS4+PS5&max=30' },
+    { value: 'R$ 40', link: '/busca?q=PS4+PS5&max=40' },
+    { value: 'R$ 50', link: '/busca?q=PS4+PS5&max=50' },
+    { value: 'R$ 100', link: '/busca?q=PS4+PS5&max=100' },
+    { value: 'R$ 200', link: '/busca?q=PS4+PS5&max=200' },
+    { value: 'R$ 300', link: '/busca?q=PS4+PS5&max=300' }
   ];
 
   function PriceComparisonSection() {
     return `
       <div class="comparison-container">
         <div class="img-left">
-          <img src="${leftImageUrl}" alt="Super Mario Bros Wonder">
+          <a href="${leftImageLink}">
+            <img src="${leftImageUrl}" alt="Super Mario Bros Wonder">
+          </a>
         </div>
         <div class="center-content">
           <h3>Compare jogos por faixa de preço</h3>
@@ -419,7 +423,9 @@ $(window).on('load', function () {
           </ul>
         </div>
         <div class="img-right">
-          <img src="${rightImageUrl}" alt="Mortal Kombat 1">
+          <a href="${rightImageLink}">
+            <img src="${rightImageUrl}" alt="Mortal Kombat 1">
+          </a>
         </div>
       </div>
     `;
@@ -539,7 +545,7 @@ function tryInsertRatingTotal(retries = 12, delay = 250) {
   if ($holder.length && $('.rating-total').length === 0) {
     $holder.after(`
       <div class="rating-total">
-          <a href="https://www.instagram.com/stories/highlights/18277528633168627/">
+          <a href="#">
               <span>+1000 avaliações</span>
               <strong><span>Clique aqui</span> para ver os comentários de nossos clientes!</strong>
           </a>
