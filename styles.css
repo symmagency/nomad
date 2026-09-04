@@ -1718,3 +1718,29 @@ section.dw-promos-hero {
     height: 36px;
     background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/percent_1.svg) center no-repeat;
 }
+
+.grid_collection-7 .box-product:not(.-clear) {
+    padding: 20px;
+}
+
+.grid_collection-9 .section-grid-collection--content.--count-2 .section-grid-collection--products .box-product .product-card>a {flex-direction: column;height: fit-content;flex-wrap: unset;}
+
+.grid_collection-9 .section-grid-collection--content.--count-2 .section-grid-collection--products .box-product .holder-image {
+    flex: none;
+    align-self: auto;
+}
+
+.grid_collection-9 .section-grid-collection--content.--count-2 .section-grid-collection--products {
+    flex-direction: row;
+    margin-left: auto;
+    grid-column: 4 / 12;
+}
+
+.grid_collection-9 .section-grid-collection--banner {
+    display: none;
+}
+
+.grid_collection-9 .section-grid-collection--content.--count-2 .section-grid-collection--products .box-product .holder-info {
+    min-height: 180px;
+    padding: 0 20px;
+}
