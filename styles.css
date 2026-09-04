@@ -136,15 +136,16 @@ body.dark-mode.category {
 }
 
 .header-content .categories .categories-menu li .promotions-nav-text {
-    display: flex;
+	display: flex;
     align-items: center;
     padding: 10px 20px;
     border: 0;
-    background: linear-gradient(90deg, #69FA00 0%, #3E9400 100%);
+    background: linear-gradient(90deg, #ef0302 0%, #900100 100%);
     border-radius: 0;
     height: 59px;
-    color: #000 !important;
+    color: #fff !important;
     font-weight: bold;
+	gap: 8px;
 }
 
 .section-header:has(.h-left-container) .header-content-right {
@@ -1684,7 +1685,8 @@ section.dw-promos-hero {
     background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/psn.svg) center no-repeat;
 }
 
-.h-categories-container:nth-child(3) > div > a:before {
+.h-categories-container:nth-child(4) > div > a:before,
+.h-categories-container:nth-child(5) > div > a:before {
     content: "";
     width: 21px;
     height: 21px;
@@ -1692,7 +1694,7 @@ section.dw-promos-hero {
     background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/ea.svg) center no-repeat;
 }
 
-.h-categories-container:nth-child(4) > div > a:before {
+.h-categories-container:nth-child(3) > div > a:before {
     content: "";
     width: 21px;
     height: 21px;
@@ -1714,5 +1716,5 @@ section.dw-promos-hero {
     display: block;
     width: 36px;
     height: 36px;
-    background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/promo.png) center no-repeat;
+    background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/percent_1.svg) center no-repeat;
 }
