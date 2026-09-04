@@ -41,15 +41,15 @@ body.dark-mode.category {
 }
 
 .image-ratio {
-	padding-bottom: 125%;
+	padding-bottom: 57%;
 }
 
 .header-content .search-btn {
 	left: auto;
-    right: 9px;
-    top: 4px;
-    padding: 10px;
-    border-radius: 0;
+	right: 10px;
+	top: 0;
+	padding: 10px;
+	border-radius: 0;
 }
 
 .header-content .search-bar {
@@ -115,7 +115,7 @@ body.dark-mode.category {
 	background: rgba(255, 255, 255, 0.05);
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	box-sizing: border-box;
-	height: 52px;
+	height: 44px;
 }
 
 .header-content .mini-cart-holder {
@@ -123,7 +123,7 @@ body.dark-mode.category {
 	justify-content: center;
 	display: flex;
 	padding: 12px 24px;
-	height: 52px;
+	height: 44px;
 	width: auto;
 	border-radius: 6px;
 	border: 1px solid rgba(255, 255, 255, 0.1);
@@ -132,19 +132,16 @@ body.dark-mode.category {
 
 .header-content {
 	border-bottom: 1px solid #303138;
-	padding-bottom: 0px;
+	padding-bottom: 4px;
 }
 
 .header-content .categories .categories-menu li .promotions-nav-text {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    border: 0;
-    background: linear-gradient(90deg, #69FA00 0%, #3E9400 100%);
-    border-radius: 0;
-    height: 59px;
-    color: #000 !important;
-    font-weight: bold;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	border: 1px solid #ef0302;
+	border-radius: 6px;
 }
 
 .section-header:has(.h-left-container) .header-content-right {
@@ -188,7 +185,7 @@ body.dark-mode:not(.category) input:not([type='checkbox'], [type='radio']) {
 	top: 12px;
 	padding: 2px 8px;
 	font-size: 12px;
-	background: #69fa00;
+	background: #ef0302;
 	border: 0;
 	height: 24px;
 	display: flex;
@@ -238,14 +235,14 @@ body.dark-mode:not(.category) input:not([type='checkbox'], [type='radio']) {
     align-items: center;
     justify-content: flex-end;
     padding: 40px;
-    background: url(https://symmagency.github.io/dwgames/assets/banners/yotei-video.png) no-repeat center;
+    background: url(https://symmagency.github.io/nomad/assets/forza-horizon.png) no-repeat center;
     background-size: cover;
     border-radius: 10px;
 }
 
 .cta-yt-video {
     padding: 16px 32px;
-    background: #69FA00;
+    background: #ef0302;
     border-radius: 6px;
     color: #000;
 }
@@ -351,7 +348,7 @@ body.dark-mode .ratings-list .review-content .-client {
 
 /* Listagem horizontal */
 
-.collection-14 .products-list > .flex {
+.collection-12 .products-list > .flex {
 	display: grid;
 	column-gap: 20px;
 	row-gap: 20px;
@@ -359,29 +356,29 @@ body.dark-mode .ratings-list .review-content .-client {
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.collection-14 .products-list .box-product .block .holder-image {
+.collection-12 .products-list .box-product .block .holder-image {
 	width: 100px;
 }
 
-.collection-14 .product-prices .installment-text {
+.collection-12 .product-prices .installment-text {
 	align-items: center;
 	display: flex;
 	margin-left: 10px;
 }
 
-.collection-14 .product-prices .flex.-vcenter {
+.collection-12 .product-prices .flex.-vcenter {
 	justify-content: center;
 	flex-direction: row;
 	align-items: center;
 }
 
-.collection-14 .product-prices {
+.collection-12 .product-prices {
 	display: flex;
 	width: 100%;
 	align-items: center;
 }
 
-.collection-14 .products-list .block {
+.collection-12 .products-list .block {
     display: flex;
     gap: 20px;
     padding: 20px;
@@ -390,23 +387,23 @@ body.dark-mode .ratings-list .review-content .-client {
     align-items: center;
 }
 
-.collection-14 .box-product.--flag-below-image {
+.collection-12 .box-product.--flag-below-image {
 	border: 1px solid #9d41ff52;
 }
 
-.collection-14 .products-list .box-product .holder-info {
+.collection-12 .products-list .box-product .holder-info {
 	padding: 8px 10px;
 }
 
-.collection-14 .products-list.flex .box-product,
-.collection-14 .products-list.flex .box-product-wrapper,
-.collection-14 .products-list > .flex .box-product,
-.collection-14 .products-list > .flex .box-product-wrapper {
+.collection-12 .products-list.flex .box-product,
+.collection-12 .products-list.flex .box-product-wrapper,
+.collection-12 .products-list > .flex .box-product,
+.collection-12 .products-list > .flex .box-product-wrapper {
 	max-width: 100%;
 	margin: 0;
 }
 
-.collection-14 .relative-tags .discount-tag {
+.collection-12 .relative-tags .discount-tag {
 	right: 2px;
 	left: auto;
 	top: 2px;
@@ -414,35 +411,31 @@ body.dark-mode .ratings-list .review-content .-client {
 	font-size: 10px;
 }
 
-.collection-14 .holder-buy-button {
+.collection-12 .holder-buy-button {
 	display: none;
 }
 
-.collection-14 .products-list .box-product .holder-info,
-body.dark-mode .collection-14 .product-name {
+.collection-12 .products-list .box-product .holder-info,
+body.dark-mode .collection-12 .product-name {
 	max-width: 100%;
 	width: 100%;
 	margin-top: 4px;
 }
 
-.collection-14 .product-actual-price,
-.collection-14 .product-prices {
+.collection-12 .product-actual-price,
+.collection-12 .product-prices {
 	margin: 0;
 }
 
-.collection-14
+.collection-12
 	.box-product.--flag-above-image
 	.holder-info
 	.average-rating-container {
 	margin-bottom: 10px;
 }
 
-.collection-14 body.dark-mode .installment-text .price {
+.collection-12 body.dark-mode .installment-text .price {
 	margin-left: 4px;
-}
-
-.collection-14 .products-list.-grid {
-    grid-template-columns: repeat(var(--products-grid-columns, 2), 1fr);
 }
 
 /* Carrossel de categorias */
@@ -548,6 +541,7 @@ body.dark-mode .collection-14 .product-name {
 	.footer .holder-footer .section-1,
 	.footer .holder-footer .section-3 {
 		max-width: 1460px;
+		justify-content: space-between;
 	}
 
 	.section-header:has(.h-left-container) .holder-search {
@@ -767,22 +761,22 @@ body.dark-mode .collection-14 .product-name {
 	}
 
 	/* Top produtos */
-	.collection-14 .products-list > .flex {
+	.collection-12 .products-list > .flex {
 		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}
 
-	.collection-14 .product-prices {
+	.collection-12 .product-prices {
 		flex-direction: column;
 		align-items: flex-start;
 	}
 
-	.collection-14 .product-prices .flex.-vcenter {
+	.collection-12 .product-prices .flex.-vcenter {
 		justify-content: flex-start;
 		margin: 0 0 10px;
 		gap: 8px;
 	}
 
-	.collection-14 .product-prices .installment-text {
+	.collection-12 .product-prices .installment-text {
 		margin: 3px 0 8px;
 		gap: 4px;
 	}
@@ -941,7 +935,7 @@ body:not(.product) .holder-flags span.flag {
 
 .box-product .buy-button-text-icon {
 	height: 42px;
-	background: #69fa00 !important;
+	background: #ef0302 !important;
 	border-radius: 6px !important;
     width: 100% !important;
     color: #000 !important;
@@ -959,11 +953,11 @@ body:not(.product) .holder-flags span.flag {
 	width: 100%;
 }
 
-body:not(.product) .collection-14 .holder-flags span.flag {
+body:not(.product) .collection-12 .holder-flags span.flag {
 	display: none;
 }
 
-.collection-14 .products-list > .flex .box-product {
+.collection-12 .products-list > .flex .box-product {
 	padding: 0;
 }
 
@@ -981,11 +975,11 @@ body.dark-mode .ratings-list .holder-review {
 	border-radius: 0 !important;
 }
 
-.collection-14 .box-product-wrapper {
+.collection-12 .box-product-wrapper {
 	position: relative;
 }
 
-.collection-14 .box-product-wrapper::after {
+.collection-12 .box-product-wrapper::after {
 	content: '1';
 	font-size: 20px;
 	position: absolute;
@@ -1000,39 +994,39 @@ body.dark-mode .ratings-list .holder-review {
 	justify-content: center;
 }
 
-.collection-14 .box-product-wrapper:nth-child(2)::after {
+.collection-12 .box-product-wrapper:nth-child(2)::after {
 	content: '2';
 }
 
-.collection-14 .box-product-wrapper:nth-child(3)::after {
+.collection-12 .box-product-wrapper:nth-child(3)::after {
 	content: '3';
 }
 
-.collection-14 .box-product-wrapper:nth-child(4)::after {
+.collection-12 .box-product-wrapper:nth-child(4)::after {
 	content: '4';
 }
 
-.collection-14 .box-product-wrapper:nth-child(5)::after {
+.collection-12 .box-product-wrapper:nth-child(5)::after {
 	content: '5';
 }
 
-.collection-14 .box-product-wrapper:nth-child(6)::after {
+.collection-12 .box-product-wrapper:nth-child(6)::after {
 	content: '6';
 }
 
-.collection-14 .box-product-wrapper:nth-child(7)::after {
+.collection-12 .box-product-wrapper:nth-child(7)::after {
 	content: '7';
 }
 
-.collection-14 .box-product-wrapper:nth-child(8)::after {
+.collection-12 .box-product-wrapper:nth-child(8)::after {
 	content: '8';
 }
 
-.collection-14 .box-product-wrapper:nth-child(9)::after {
+.collection-12 .box-product-wrapper:nth-child(9)::after {
 	content: '9';
 }
 
-.collection-14 .box-product-wrapper:nth-child(10)::after {
+.collection-12 .box-product-wrapper:nth-child(10)::after {
 	content: '10';
 }
 
@@ -1048,7 +1042,7 @@ body.dark-mode .rkt-header-shopping-page-redirect:after {
 }
 
 .main-product-buy-button-holder .btn {
-	background: #69FA00;
+	background: #ef0302;
 	color: #150e19;
 	border: 0;
 	height: 60px;
@@ -1061,8 +1055,8 @@ body.dark-mode .rkt-header-shopping-page-redirect:after {
     margin: 0 0 0 20px;
     align-items: center;
     display: flex;
-    background: #69FA00;
-    border-color: #69FA00;
+    background: #ef0302;
+    border-color: #ef0302;
     color: #000;
 }
 
@@ -1330,7 +1324,7 @@ h2.faq-title {
 }
 
 .promotion .products-list {
-    background: #69FA00;
+    background: #ef0302;
     padding: 60px;
     border-radius: 10px;
     margin-bottom: 60px;
@@ -1356,18 +1350,18 @@ h2.faq-title {
 }
 
 .coupon-promo span span {
-    color: #6afa02;
+    color: #ef0302;
     font-weight: bold;
 }
 
 .coupon-promo {
     padding: 12px;
-    border: 1px dashed #6afa02;
+    border: 1px dashed #ef0302;
     border-radius: 6px;
 }
 
 .main_promotion_content-1 {
-    background: url(https://symmagency.github.io/dwgames/assets/banners/bg-page-promo.png) -390px -350px no-repeat;
+    background: url(https://symmagency.github.io/nomad/assets/fundo-bg.png) -50px -90px no-repeat;
 }
 
 .category-content .holder-results {
@@ -1401,8 +1395,9 @@ section.dw-promos-hero {
 }
 
 .main_promotion_content-1 {
-    background: url(https://symmagency.github.io/dwgames/assets/banners/bg-page-promo-mobile.png) top no-repeat;
-    background-size: 100%;
+	background: url(https://symmagency.github.io/nomad/assets/bg-mobile-promo.png) top no-repeat;
+	background-size: 100%;
+	padding-top: 200px;
 }
 
 .promotion .category-options {
@@ -1450,8 +1445,8 @@ section.dw-promos-hero {
 .rating-total > a > span {
     padding: 4px 12px;
     border-radius: 999px;
-    border: 1px solid #69FA00;
-    color: #69FA00;
+    border: 1px solid #ef0302;
+    color: #ef0302;
 }
 
 .rating-total > a > strong {
@@ -1464,21 +1459,21 @@ section.dw-promos-hero {
 
 .rating-total > a > strong > span {
     font-weight: 600;
-    color: #69FA00;
+    color: #ef0302;
 }
 
 .main-product-content .holder-variant-button {
     flex-direction: row-reverse;
 }
 
-.collection-14 .products-list .block .holder-image img {
+.collection-12 .products-list .block .holder-image img {
     border-radius: 5px;
 }
 
 /* Ajustes na barra de newsletter */
 
 #form-newsletter .btn {
-    background: #69FA00;
+    background: #ef0302;
     border: 0;
     height: 44px;
     color: #000;
@@ -1539,180 +1534,4 @@ section.dw-promos-hero {
         top: auto;
         bottom: 133px;
     }
-}
-
-/* Vitrine GTA VI */
-
-.grid_collection-7 {
-	background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/gtavi.png)
-		center no-repeat;
-	background-size: cover;
-}
-
-.grid_collection-7 .section-grid-collection--container {
-	flex-direction: row;
-	align-items: center;
-	min-height: 600px;
-}
-
-.grid_collection-7 .section-grid-collection--container > div {
-	flex: 1;
-}
-
-.grid_collection-7
-	.section-grid-collection--products
-	.grid-collection-box
-	> .holder-buy-button {
-	display: none;
-}
-
-.grid_collection-7 .section-grid-collection--text .title-text {
-	font-size: 56px;
-}
-
-.grid_collection-7 .section-grid-collection--text .title-text:before {
-	content: '';
-	background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/gtavilogo.png)
-		center no-repeat;
-	width: 149px;
-	height: 119px;
-	display: flex;
-}
-
-.grid_collection-7 .box-product {
-	border-radius: 5px!important;
-	backdrop-filter: blur(10px);
-}
-
-@media screen and (max-width: 768px) {
-	
-	.grid_collection-7 {
-		margin-top: 60px!important;	
-	}
-	
-	.grid_collection-7 .section-grid-collection--text .title-text:before {
-		margin: 0 auto;
-	}
-
-	.grid_collection-7 .section-grid-collection--container {
-		flex-direction: column;
-	}
-
-	.grid_collection-7 .section-grid-collection--banner {
-		display: none;
-	}
-}
-
-
-/* Vitrine FC 27 */
-
-.grid_collection-11 {
-	background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/fc-27.png)
-		center no-repeat;
-	background-size: cover;
-}
-
-.grid_collection-11 .section-grid-collection--container {
-	flex-direction: row;
-	align-items: center;
-	min-height: 600px;
-}
-
-.grid_collection-11 .section-grid-collection--container > div {
-	flex: 1;
-}
-
-.grid_collection-11
-	.section-grid-collection--products
-	.grid-collection-box
-	> .holder-buy-button {
-	display: none;
-}
-
-.grid_collection-11 .section-grid-collection--text .title-text {
-	font-size: 56px;
-}
-
-.grid_collection-11 .section-grid-collection--text .title-text:before {
-	content: '';
-	background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/fc-27-logo.png)
-		center no-repeat;
-	width: 220px;
-	height: 50px;
-	display: flex;
-}
-
-.grid_collection-11 .box-product {
-	border-radius: 5px!important;
-	backdrop-filter: blur(10px);
-}
-
-@media screen and (max-width: 768px) {
-	
-	.grid_collection-11 {
-		margin-top: 60px!important;	
-	}
-	
-	.grid_collection-11 .section-grid-collection--text .title-text:before {
-		margin: 0 auto;
-	}
-
-	.grid_collection-11 .section-grid-collection--container {
-		flex-direction: column;
-	}
-
-	.grid_collection-11 .section-grid-collection--banner {
-		display: none;
-	}
-}
-
-/* MENU */
-
-.h-categories-container > div > a {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-}
-
-.h-categories-container:first-child > div > a:before,
-.h-categories-container:nth-child(2) > div > a:before {
-    content: "";
-    width: 24px;
-    height: 21px;
-    display: block;
-    background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/psn.svg) center no-repeat;
-}
-
-.h-categories-container:nth-child(3) > div > a:before {
-    content: "";
-    width: 21px;
-    height: 21px;
-    display: block;
-    background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/ea.svg) center no-repeat;
-}
-
-.h-categories-container:nth-child(4) > div > a:before {
-    content: "";
-    width: 21px;
-    height: 21px;
-    display: block;
-    background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/percent_1.svg) center no-repeat;
-    background-size: 80%;
-}
-
-.h-categories-container:nth-child(6) > div > a:before {
-    content: "";
-    width: 21px;
-    height: 21px;
-    display: block;
-    background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/ea.svg) center no-repeat;
-}
-
-.header-content .categories .categories-menu li .promotions-nav-text:before {
-    content: "";
-    display: block;
-    width: 36px;
-    height: 36px;
-    background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/promo.png) center no-repeat;
 }
